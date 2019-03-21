@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ex7.css">
+    <title>Exercices7</title>
+  </head>
+  <body>
+    <form >
+      <fieldset id="field1">
+        <legend>Votre identité</legend>
+          <ol>
+              <li><label for="identité">Nom :</label>
+                  <input type="text" name="identité" placeholder="Nom">
+              </li>
+              <li><label for="identité">Prénom :</label>
+                   <input type="text" name="identité" placeholder="Prénom">
+              </li>
+              <li><label for="identité">Adresse mail :</label>
+                   <input type="email" name="identité" placeholder="Adresse mail">
+              </li>
+          </ol>
+        </fieldset>
+        <fieldset id="field2">
+          <legend>Adresse de livraison</legend>
+            <ol>
+                <li><label for="Adresse">Adresse :</label>
+                    <textarea name="Adresse" rows="5"></textarea>
+                </li>
+                <li><label for="Adresse">Code postal :</label>
+                     <input type="number" name="Adresse" placeholder="Code postal">
+                </li>
+                <li><label for="Adresse">Ville:</label>
+                     <input type="text" name="Adresse" placeholder="Ville">
+                </li>
+            </ol>
+          </fieldset>
+          <fieldset id="field3">
+            <legend>Information de réglement</legend>
+              <ol>
+                  <li><label for="Paiement">Type de carte bancaire :</label>
+                    <p>
+                      <input type="radio" name="Paiement"> VISA </input>
+                    </p>
+                    <p>
+                      <input type="radio" name="Paiement"> Mastercard </input>
+                    </p>
+                    </li>
+                  <li><label for="Paiement">Numéro de carte :</label>
+                       <input type="number" name="Paiement" placeholder="Numéro de carte">
+                  </li>
+                  <li><label for="Paiement">Code de sécurité :</label>
+                       <input type="number" name="Paiement" placeholder="Code de sécurité">
+                  </li>
+                  <li><label for="Paiement">Nom du titulaire :</label>
+                    <input type="text" name="Paiement" placeholder="Nom du titulaire"
+                  </li>
+              </ol>
+            </fieldset>
+            <label for="Achat"></label>
+            <input type="submit" name="Achat" value="J'achète !">
+
+
+
+
+    </form>
+  </body>
+</html>
